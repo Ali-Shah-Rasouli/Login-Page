@@ -69,3 +69,19 @@ margin-bottom: 20px;
       text-decoration: underline;
     }
  
+ .login-form .options-register {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 0 20px;
+      font-size: 16px;
+    }
+   
+     .login-form .options-register a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .login-form .options-register a:hover {
+      text-decoration: underline;
+    }
