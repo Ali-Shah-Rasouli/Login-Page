@@ -24,5 +24,5 @@ function addUser($userdata){
  $stmt->execute();
  return $stmt->insert_id;
 }
-$user_id = addUser(['fullName'=> 'Ahmad', 'emailAddress'=>'Ahmad@yahoo.com', 'password'=> '123', 'confPassword'=>'123']);
+$user_id = addUser(['fullName'=> 'Admin', 'emailAddress'=>'Admin@yahoo.com', 'password'=> 'admin', 'confPassword'=>'admin']);
 echo " added user id is: $user_id";
